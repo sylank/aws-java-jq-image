@@ -1,4 +1,6 @@
-FROM openjdk:8
+FROM ubuntu:18.04
+
+RUN apt-get update && apt-get install -y awscli openjdk-8-jdk curl
 
 RUN curl https://stedolan.github.io/jq/download/linux64/jq > /usr/bin/jq && chmod +x /usr/bin/jq
 RUN ls -la /usr/bin/jq
