@@ -1,2 +1,3 @@
 # java-jq-docker-image
-java-jq image for service build
+
+Pre installed AWS-CLI and Java-8 with JQ to build services
